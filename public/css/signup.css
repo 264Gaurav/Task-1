@@ -1,0 +1,218 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Rouge+Script&display=swap'); */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+   
+} */
+
+/* .main{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-135deg,#4158d0,#c850c0);
+    justify-content: center;
+    align-items: center;
+  
+  
+} */
+
+/* .flex{
+    display: flex;
+  
+    
+} */
+
+/* .section{
+    width: 780px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    padding: 100px 130px 83px 95px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px #c850c0;
+    
+} */
+
+/* .innermain{
+    border: 3px solid red;
+    padding: 20px;
+} */
+
+/* .name{
+    margin-block: 15px;
+}
+
+.name input{
+    font-size: 1rem;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 10px;
+    padding-left: 42px;
+    border-style: none;
+    border: 1.5px solid black;
+} */
+
+/* .btn{
+    width:100%;
+    padding-block: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 15px;
+    padding-block: 12px;
+    
+ 
+} */
+
+/* .btn:hover{
+   
+    background-color: #c850c0;
+    background: linear-gradient(-135deg,#fafffa,#c850c0);
+ 
+} */
+
+/* .bt{
+    background-color: #c850c0;
+    border: 2px solid rgb(251, 251, 251);
+    padding: 12px;
+    text-align: center;
+    border-radius: 24px;
+    font-weight: 700;
+   
+    
+} */
+
+/* .bt:hover{
+    background-color: #57b846;
+    
+} */
+
+/* a{
+    text-decoration: none;
+    color: white;
+} */
+
+
+ 
+
+
+
+/*               new    */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(120deg,#91abf3,#93a0e9);
+    height: 100vh;
+    overflow: hidden;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 400px;
+    border:5PX double rgb(73, 164, 187); 
+    border-radius: 10px;
+    background: linen;
+}
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+.center form{
+    padding: 0 40px ;
+    box-sizing: border-box;
+}
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+.txt_field input{
+    width: 100%;
+    padding: 0 5px ;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.txt_field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.txt_field span::before{
+content: '';
+position: absolute;
+top: 40px;
+left: 0;
+width: 0%;
+height: 2px;
+background: #2691d9;
+transition: .5s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+    top: -5px;
+    color: #2691d9;
+}
+
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+   width: 100%;
+}
+
+.pass{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;
+}
+.pass:hover{
+     text-decoration: underline; 
+}
+.submit{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #4ed696;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+.submit:hover{
+    background: blue;
+    transition: .5s;
+}
+.SignupLink{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+.SignupLink a{
+    color: #2691d9;
+    text-decoration: none;
+}
+.SignupLink a:hover{
+    text-decoration: underline;
+
+}

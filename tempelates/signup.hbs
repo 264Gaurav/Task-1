@@ -1,0 +1,88 @@
+{{!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+
+<div class="main flex">
+
+     <div class="section">
+
+           <div class="image">
+        <img src="https://colorlib.com/etc/lf/Login_v1/images/img-01.png" alt="not load" srcset="" width="220px">
+    </div>
+
+     <div class="innermain">
+    <h2>Sign Up Now</h2>
+
+    <form action="/signup" method="post">
+        <div class="name">
+        <input type="text" name="name" placeholder="Name">
+        <br>
+        <input type="password" name="password" placeholder="Password" id="pass">
+        <br>
+        <input type="password" name="confirm" placeholder="Confirm Password" id="pass">
+      </div>
+        <input class="btn" type="submit">
+    
+    </form>
+
+    </div>
+
+    </div>
+
+    </div>
+</body>
+</html> --}}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER PAGE</title>
+   <link rel="stylesheet" href="css/signup.css">
+    <style>
+        .submit{
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h1>Register</h1>
+        <form action="/signup" method="post">
+            <div class="txt_field">
+                <input type="text" name="name" required>
+                <span></span>
+                <label >Username</label>
+            </div>
+            <div class="txt_field">
+                <input type="password"  name="password" required>
+                <span></span>
+                <label >Password</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" name="confirm" required>
+                <span></span>
+                <label >Confirm Password</label>
+            </div>
+           
+            <input class="submit" type="submit" name="" value="Register">
+            <!-- <div class="SignupLink">
+                Not a Member? <a href="#">Signup</a>
+            </div> -->
+        </form>
+    </div>
+    
+</body>
+</html>

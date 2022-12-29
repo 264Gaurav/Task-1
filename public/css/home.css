@@ -1,0 +1,222 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(90, 168, 164);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    }
+
+    li {
+    float: left;
+    font-size:auto;
+    }
+
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:5px;
+    text-decoration: none;
+    overflow: hidden;
+    }
+
+    li a:hover:not(.active) {
+    background-color: #111;
+    }
+
+    .active {
+    background-color: #04AA6D;
+    }
+
+.content{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -2;
+}
+
+
+
+
+
+div.sec2{
+    margin: 20px 0 0 0;
+   
+}
+h2{
+    padding: 20px;
+    color: #70bebe;
+    font-size: 35px;
+    font-family: 'Montserrat' , sans-serif;  
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(231, 236, 236);
+    line-height: 2;
+    color: #40514e;
+}
+.heading{
+    margin-top: 50px;
+    color: #66bfbf;
+    /* line-height: 2; */
+   /* text-shadow: 2px 2px 5px rgb(51, 219, 141) , 7px 5px 5px rgb(86, 102, 138); */
+   font-size: 4.2rem; 
+   margin:50px auto 0 auto;
+   /* width: 60%; */
+   text-align: center;
+   font-family:'Sacramento' ,cursive ,Brush Script MT;
+}
+.intro,.vlog,.skill{
+    width: 50%;
+    font-size: 1.2rem;
+    margin:40px auto 20px;
+    line-height:2.2;
+}
+
+.programmer{
+    font-size: 2.2rem;
+}
+.cloud{
+    margin-top: 8rem;
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    top: 0;
+    position: relative;
+}
+.cloud1 {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: 10%;
+}
+/* .cloud2{
+    
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: 60%;
+} */
+hr{
+    border: dotted #70bebe 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 40px auto 45px auto;
+}
+/* .welcome{
+    color:#70bebe;
+} */
+
+div.mid{
+     /* background-color: rgba(159, 133, 231, 0.842);  */
+    height: 400px;
+    width: 100%;
+    font-family: serif;
+    font-size:20px ;
+}
+
+
+.tree{
+    border: 2px solid red;
+    border-radius:125px ;
+    padding: 0;
+    width: 250px;
+    height: 250px;
+}
+
+.poem{
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: blue;
+   
+}
+
+.contact_image{
+    width: 200px;
+    height: 220px;
+    background-color: rgb(231, 187, 106);
+    margin: 10px;
+    padding: 10px;
+}
+/* .bottom-container{
+    height: 50px;
+    width: 100%;
+} */
+.iot,.cpp, .Web-Development{
+    border: 2px solid red;
+    border-radius:20px ;
+    height: 100px;
+    width: 100px;
+}
+
+.bottom-container{
+    margin: 0px;
+    padding: 50px 0px 20px;
+   background-color: #66bfbf;
+}
+
+.copyright{
+    /* display: inline; */
+    color: #eaf6f6;
+    position: relative;
+    text-align: center;   
+    font-size: 0.98rem; 
+    padding: 20px 0 10px 0;
+}
+/* .button , .footer-link{
+    height: 50px;
+    width: 400px;
+    padding: 12px;
+    font-size: 20px;
+    background-color: rgb(116, 165, 70);
+    color: white;
+    margin-top: -30px;
+    border: 1px solid rgba(192, 3, 44, 0.671);
+    border-radius: 20px;
+} */
+
+ .button ,.footer-link{                              /* Create Button using "button creator.com" */
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat' , sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .button:hover , .footer-link:hover{
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .footer-link{
+    position: relative;
+    text-align: center;
+    width: 10rem;
+    margin-left:auto;
+    margin-right: auto;
+    padding:0px;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    }

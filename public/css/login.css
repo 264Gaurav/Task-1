@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Rouge+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: aqua; */
+    /* background: linear-gradient(to top right ,red,pink); */
+    background: linear-gradient(-135deg,#c850c0,#4158d0);
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+  
+}
+
+.flex{
+    display: flex;
+  
+    
+}
+.section{
+    width: 780px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* width: 25vw; */
+    /* height: 100vh; */
+    background-color: white;
+    padding: 100px 130px 83px 95px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #c850c0;
+    
+}
+
+.innermain{
+    border: 3px solid red;
+    padding: 20px;
+}
+.name{
+    margin-block: 15px;
+}
+.name input{
+    font-size: 1rem;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 10px;
+    padding-left: 42px;
+    border-style: none;
+    border: 1.5px solid black;
+}
+
+.btn{
+    width:100%;
+    padding-block: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 15px;
+    
+ 
+}
+.btn:hover{
+   
+    background-color: #c850c0;
+    background: linear-gradient(-135deg,#c850c0,#fafffa);
+ 
+}
+.bt{
+    background-color: #c850c0;
+    border: 2px solid rgb(251, 251, 251);
+    padding: 12px;
+    text-align: center;
+    border-radius: 24px;
+    font-weight: 700;
+   
+    
+}
+.bt:hover{
+    background-color: #57b846;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
